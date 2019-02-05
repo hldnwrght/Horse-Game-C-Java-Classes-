@@ -1,0 +1,22 @@
+HW 3 Algorithm
+Goal: To use Java and C plus plus to create a game of horse using more than one source code and classes.
+Output: It will output each individual shot and if they made it or not, then after the missed shot the letter that is added is displayed.
+Requirements: Use C++ and java to create the game Horse, must make use of classes and objects.
+Problems -> sub Problems:
+* Create class Player
+* Loop until one player completes HORSE
+* Create a rand function from 1 to 2 to see if player makes the shot or not.
+* If either both make it or don’t make it continues the game until one makes it and one does not.
+* Create destructors to prevent memory leaks
+* When program has completed prompt user to enter Y:N to redo the program.
+Step by Step:
+1. Begin the program by greeting the user.
+2. Assign values to player 1 and player 2 as well as create local variables for looping.
+3. Create a nested do while within a while loop
+4. For the do start by assigning a value to a variable and retrieve a random 2 numbers to see if the player makes the shot or not.
+5. Have 4 if statements: 1 for if player 1 makes it, 1 for if player 2 makes it, 1 for if they both make it, and 1 for if neither make it.
+6. When one player misses enough shots to spell horse the do while loop exits.
+7. Delete any and all heap allocated variables
+8. Prompt the user if they want to do it again or not
+
+
